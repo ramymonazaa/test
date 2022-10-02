@@ -25,10 +25,10 @@ SECRET_KEY = "django-insecure-ub&!$!bm8a477#i8dl4jg+e#=@4f50je(peub$i7r_)f7)n8rv
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
-path = '/django_projects/project1/project1'
-if path not in sys.path:
-    sys.path.append(path)
-os.environ['DJANGO_SETTINGS_MODULE'] = 'project1.settings'
+# path = '/django_projects/project1/project1'
+# if path not in sys.path:
+#     sys.path.append(path)
+# os.environ['DJANGO_SETTINGS_MODULE'] = 'project1.settings'
 ALLOWED_HOSTS = ['127.0.0.1']
 
 # Application definition
